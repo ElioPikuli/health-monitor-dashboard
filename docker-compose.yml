@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  monitor_service:
+    build: .
+    container_name: health_monitor_collector
+    command: python monitor.py
+    volumes:
+      - db_data:/app/data
+    environment:
+      - DB_FILE=/app/data/health_monitor.db
+    restart: always
+
+  dashboard_service:
+    build: .
+    container_name: health_monitor_dashboard
+    command: streamlit run dashboard.py --server.port 8501 --server.address 0.0.0.0
+    volumes:
+      - db_data:/app/data
+    environment:
+      - DB_FILE=/app/data/health_monitor.db
+    ports:
+      - "8501:8501"
+    depends_on:
+      - monitor_service
+    restart: always
+
+volumes:
+  db_data:
