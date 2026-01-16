@@ -1,7 +1,7 @@
 # Distributed System Health Dashboard 🛡️
 
-![Dashboard Screenshot](PLACEHOLDER_FOR_SCREENSHOT_HERE)
-> *Replace this text with a screenshot of your running dashboard.*
+![Dashboard Screenshot](<img width="1814" height="804" alt="image" src="https://github.com/user-attachments/assets/9caa27fa-177a-4124-8ba1-c61e97cc41ad" />
+)
 
 ## Project Overview
 
