@@ -2,7 +2,7 @@
 
 **Live demo:** <https://health-monitor-dashboard-esn2.onrender.com> (hosted on Render, so the first load can take about 20 seconds while the service wakes up)
 
-<img width="1814" height="804" alt="Dashboard showing service status KPIs and latency history charts" src="https://github.com/user-attachments/assets/9caa27fa-177a-4124-8ba1-c61e97cc41ad" />
+![Dashboard showing service status KPIs and latency history charts](docs/dashboard.png)
 
 ## Project Overview
 
