@@ -1,7 +1,8 @@
 # Distributed System Health Dashboard 🛡️
 
-![Dashboard Screenshot](<img width="1814" height="804" alt="image" src="https://github.com/user-attachments/assets/9caa27fa-177a-4124-8ba1-c61e97cc41ad" />
-)
+**Live demo:** <https://health-monitor-dashboard-esn2.onrender.com> (hosted on Render, so the first load can take about 20 seconds while the service wakes up)
+
+<img width="1814" height="804" alt="Dashboard showing service status KPIs and latency history charts" src="https://github.com/user-attachments/assets/9caa27fa-177a-4124-8ba1-c61e97cc41ad" />
 
 ## Project Overview
 
@@ -36,8 +37,8 @@ The system is containerized using **Docker Compose** and consists of two main se
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/distributed-health-dashboard.git
-    cd distributed-health-dashboard
+    git clone https://github.com/ElioPikuli/health-monitor-dashboard.git
+    cd health-monitor-dashboard
     ```
 
 2.  **Start the Services**
